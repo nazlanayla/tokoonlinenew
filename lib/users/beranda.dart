@@ -95,10 +95,10 @@ class _BerandaState extends State<Beranda> with SingleTickerProviderStateMixin {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('$name ditambahkan ke produk')),
       );
-    } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Lengkapi semua data produk dan pilih gambar')),
-      );
+      // } else {
+      //   ScaffoldMessenger.of(context).showSnackBar(
+      //     SnackBar(content: Text('Lengkapi semua data produk dan pilih gambar')),
+      //   );
     }
   }
 
@@ -128,7 +128,7 @@ class _BerandaState extends State<Beranda> with SingleTickerProviderStateMixin {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text('nbeauty'),
+        title: Text('nayla'),
         actions: [
           IconButton(
             icon: Icon(Icons.shopping_cart),
